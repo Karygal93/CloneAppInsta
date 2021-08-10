@@ -18,8 +18,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.home.intagracoleneapp.Adapter.NotificationAdapter;
 import com.home.intagracoleneapp.Adapter.PostAdapter;
-import com.home.intagracoleneapp.Adapter.StoryAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +36,7 @@ public class HomeFragment extends Fragment {
     private List<String> followingList;
     private ProgressBar progressBar;
     private RecyclerView recyclerView_story;
-    private StoryAdapter storyAdapter;
+   // private StoryAdapter storyAdapter;
     private List<Story> storyList;
 
 
@@ -54,8 +54,8 @@ public class HomeFragment extends Fragment {
                 , LinearLayoutManager.HORIZONTAL,false);
         recyclerView_story.setLayoutManager(linearLayoutManager1);
         storyList = new ArrayList<>();
-        storyAdapter = new StoryAdapter(getContext(),storyList);
-        recyclerView_story.setAdapter(storyAdapter);
+       // storyAdapter = new StoryAdapter(getContext(),storyList);
+        //recyclerView_story.setAdapter(storyAdapter);
 
 
 
@@ -178,7 +178,7 @@ public class HomeFragment extends Fragment {
                     }
 
                 }
-                storyAdapter.notifyDataSetChanged();
+               // NotificationAdapter.notifyDataSetChanged();
 
             }
 

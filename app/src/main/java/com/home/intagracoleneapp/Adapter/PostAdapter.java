@@ -27,7 +27,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.home.intagracoleneapp.CommentsActivity;
 import com.home.intagracoleneapp.FollowersActivity;
 import com.home.intagracoleneapp.Fragment.PostDetailFragment;
-import com.home.intagramapp.Fragment.ProfileFragment;
+import com.home.intagracoleneapp.Fragment.ProfileFragment;
 
 
 import java.util.HashMap;

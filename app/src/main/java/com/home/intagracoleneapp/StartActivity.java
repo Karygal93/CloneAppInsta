@@ -40,9 +40,7 @@ public class StartActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent( StartActivity.this,LoginActivity.class);
-                startActivity(intent);
-
+                startActivity(new Intent(StartActivity.this,RagisterActivity.class));
 
             }
         });
@@ -51,8 +49,7 @@ public class StartActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent( StartActivity.this,RagisterActivity.class);
-                startActivity(intent);
+                startActivity(new Intent(StartActivity.this,RagisterActivity.class));
 
 
             }

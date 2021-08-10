@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-               final ProgressDialog pd = new ProgressDialog(LoginActivity.this);
+                ProgressDialog pd = new ProgressDialog(LoginActivity.this);
                 pd.setMessage("Please wait...");
                 pd.show();
                 String str_username= username.getText().toString();

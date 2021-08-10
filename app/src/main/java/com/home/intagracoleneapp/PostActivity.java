@@ -27,10 +27,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
-import com.theartofdev.edmodo.cropper.CropImage;
+//import com.theartofdev.edmodo.cropper.CropImage;
 
 import java.util.HashMap;
-
 public class PostActivity extends AppCompatActivity {
 
     Uri imageUrl;
@@ -74,11 +73,13 @@ public class PostActivity extends AppCompatActivity {
             }
         });
 
-       CropImage.activity()
-               .setAspectRatio(1, 1)
-               .start(PostActivity.this);
+      // CropImage.activity()
+               //.setAspectRatio(1, 1)
+               //.start(PostActivity.this);
 
     }
+
+
 
     private String getFileExtensions(Uri uri) {
 
@@ -155,7 +156,7 @@ public class PostActivity extends AppCompatActivity {
     }
 
 
-
+ /*
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -168,6 +169,8 @@ public class PostActivity extends AppCompatActivity {
 
             imageUrl = result.getUri();
 
+
+
             image_added.setImageURI(imageUrl);
         }else {
             Toast.makeText(PostActivity.this,"Searching gone wrong!",Toast.LENGTH_SHORT).show();
@@ -176,4 +179,6 @@ public class PostActivity extends AppCompatActivity {
             finish();
         }
     }
+
+  */
 }

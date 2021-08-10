@@ -31,11 +31,7 @@ import com.home.intagracoleneapp.Adapter.MyFotosAdapter;
 import com.home.intagracoleneapp.EditProfileActivity;
 import com.home.intagracoleneapp.FollowersActivity;
 import com.home.intagracoleneapp.OptionsActivity;
-//import com.home.intagramapp.Adapter.MyFotosAdapter;
-//import com.home.intagramapp.EditProfileActivity;
-//import com.home.intagramapp.FollowersActivity;
-//import com.home.intagramapp.OptionsActivity;
-//import com.home.intagramapp.R;
+
 
 import java.util.ArrayList;
 import java.util.Collections;

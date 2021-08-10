@@ -22,8 +22,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.home.intagracoleneapp.Fragment.ProfileFragment;
 import com.home.intagracoleneapp.MainActivity;
-import com.home.intagramapp.Fragment.ProfileFragment;
 
 
 import java.util.HashMap;

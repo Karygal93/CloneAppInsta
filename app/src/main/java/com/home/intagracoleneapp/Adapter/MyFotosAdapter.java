@@ -48,7 +48,7 @@ public class MyFotosAdapter extends  RecyclerView.Adapter<MyFotosAdapter.ViewHol
     public void onBindViewHolder(@NonNull ViewHolder viewholder, int i) {
 
         final Post post = mPosts.get(i);
-        Glide.with(context).load(post.getPostimage()).into(viewholder.post_image);
+       // Glide.with(context).load(post.getPostimage()).into(viewholder.post_image);
 
 
         viewholder.post_image.setOnClickListener(new View.OnClickListener() {

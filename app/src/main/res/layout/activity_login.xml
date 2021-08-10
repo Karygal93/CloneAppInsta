@@ -11,6 +11,9 @@
     android:background="#E5989B"
     tools:context=".LoginActivity">
 
+
+    tools
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="50dp"

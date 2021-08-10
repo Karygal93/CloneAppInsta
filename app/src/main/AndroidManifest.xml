@@ -16,16 +16,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CloneAppInsta">
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.home.intagracoleneapp.RagisterActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.home.intagracoleneapp.MainActivity"
+
             android:exported="true" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.home.intagracoleneapp.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".StartActivity"
+            android:name="com.home.intagracoleneapp.StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,8 +38,7 @@
 
 
 
-        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-            android:theme="@style/Base.Theme.AppCompat"/> <!-- optional (needed if default theme has no action bar) -->
+
 
     </application>
 

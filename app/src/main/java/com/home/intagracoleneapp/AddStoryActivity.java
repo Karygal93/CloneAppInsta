@@ -24,7 +24,7 @@ import com.google.firebase.database.ServerValue;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.StorageTask;
-import com.theartofdev.edmodo.cropper.CropImage;
+//import com.theartofdev.edmodo.cropper.CropImage;
 
 import java.util.HashMap;
 
@@ -40,13 +40,14 @@ public class AddStoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_story);
+        //setContentView(R.layout.activity_add_story);
 
          storageReference = FirebaseStorage.getInstance().getReference("Story");
 
-        CropImage.activity()
+       /* CropImage.activity()
                 .setAspectRatio(9,16)
                 .start(AddStoryActivity.this);
+                */
     }
 
     private String getFileExtensions(Uri uri) {
@@ -122,7 +123,7 @@ public class AddStoryActivity extends AppCompatActivity {
             Toast.makeText(this, "No image selected!", Toast.LENGTH_SHORT).show();
         }
     }
-
+/*
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -142,4 +143,6 @@ public class AddStoryActivity extends AppCompatActivity {
 
         }
     }
+
+ */
 }
